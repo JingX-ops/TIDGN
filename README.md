@@ -11,10 +11,24 @@ torch 1.12.1
 torch_geometric 2.3.0  
 torch_geometric_temporal 0.54.0  
 tqdm 4.65.0  
-# **Run TIDGN for prediction**
+# **Reproduce our work**
+We provide the complete dataset, processed features, trained models, and corresponding code for the four IDP interaction prediction tasks, allowing reproduction of our work.
+-For the FUS RGG homotypic interaction prediction task:
+Python fus_homo_pred.py
+-For the FUS RGG heterotypic interaction prediction task:
+Python fus_hete_pred.py
+-For the LAF-1 RGG homotypic interaction prediction task:
+Python laf_homo_pred.py
+-For the LAF-1 RGG heterotypic interaction prediction task:
+Python laf_hete_pred.py
 
 # **Train a new model**
-
-
-
-
+To retrain TIDGN on the four IDP interaction datasets, you can run the following code:
+-For the FUS RGG homotypic interaction prediction task:
+Python fus_homo_pred.py
+-For the FUS RGG heterotypic interaction prediction task:
+Python fus_hete_pred.py
+-For the LAF-1 RGG homotypic interaction prediction task:
+Python laf_homo_pred.py
+-For the LAF-1 RGG heterotypic interaction prediction task:
+Python laf_hete_pred.py
