@@ -14,13 +14,21 @@ tqdm 4.65.0
 # **Reproduce our work**
 We provide the complete dataset, processed features, trained models, and corresponding code for the four IDP interaction prediction tasks, allowing reproduction of our work.
 - For the FUS RGG homotypic interaction prediction task:
+```bash
 Python fus_homo_pred.py
+```
 - For the FUS RGG heterotypic interaction prediction task:
+```bash
 Python fus_hete_pred.py
+```
 - For the LAF-1 RGG homotypic interaction prediction task:
+```bash
 Python laf_homo_pred.py
+```
 - For the LAF-1 RGG heterotypic interaction prediction task:
+```bash
 Python laf_hete_pred.py
+```
 
 # **Train a new model**
 To retrain TIDGN on the four IDP interaction datasets, you can run the following code:
@@ -29,11 +37,17 @@ To retrain TIDGN on the four IDP interaction datasets, you can run the following
 Python fus_homo_pred.py
 ```
 - For the FUS RGG heterotypic interaction prediction task:  
-Python fus_hete_pred.py  
+```bash
+Python fus_hete_pred.py
+```
 - For the LAF-1 RGG homotypic interaction prediction task:  
-Python laf_homo_pred.py  
+```bash
+Python laf_homo_pred.py
+```  
 - For the LAF-1 RGG heterotypic interaction prediction task:  
+```bash
 Python laf_hete_pred.py
+```  
 
 
 
