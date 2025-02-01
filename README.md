@@ -34,19 +34,19 @@ Python laf_hete_pred.py
 To retrain TIDGN on the four IDP interaction datasets, you can run the following code:
 - For the FUS RGG homotypic interaction prediction task:  
 ```bash
-Python fus_homo_pred.py
+Python fus_homo_train.py
 ```
 - For the FUS RGG heterotypic interaction prediction task:  
 ```bash
-Python fus_hete_pred.py
+Python fus_hete_train.py
 ```
 - For the LAF-1 RGG homotypic interaction prediction task:  
 ```bash
-Python laf_homo_pred.py
+Python laf_homo_train.py
 ```  
 - For the LAF-1 RGG heterotypic interaction prediction task:  
 ```bash
-Python laf_hete_pred.py
+Python laf_hete_train.py
 ```  
 
 
