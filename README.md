@@ -2,6 +2,7 @@
 TIDGN is a transfer learning-based model for predicting intrinsically disordered protein interaction sites using invariant geometric dynamic graph network.
 
 <img width="1243" height="1080" alt="1" src="https://github.com/user-attachments/assets/70952715-6721-4b64-9f3c-3ad654dc396f" />
+
 # **Requirements**
 Python 3.9.16  
 numpy 1.25.0  
